@@ -1,4 +1,4 @@
-# KaptureLab
+9# KaptureLab
 Generate QR-based lab record PDFs in your browser. Fast, clean, and submission-ready.
 
 
@@ -25,17 +25,8 @@ Generate QR-based lab record PDFs in your browser. Fast, clean, and submission-r
 ## License
 CC BY-NC 4.0 — Free for personal/student use. No commercial redistribution.
 
----
 
 Made with ❤️ by Gokul
-
-
-
-
-
-
-
-
 
 # 🌐 KaptureLab
 
@@ -102,18 +93,7 @@ This project is licensed under the **Creative Commons BY-NC 4.0** license.
 
 Read more: [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)
 
----
-
-## ✨ Credits & Creator
-
-Made with ❤️ by **Gokul**  
-Powered by motivation, caffeine, and a *quiet inspiration that starts with K...*
-
----
 
 ## 💌 Want to Contribute?
 
 Pull requests, feedback, or ideas are welcome!  
-If you’re a fellow student looking to customize this for your department or lab — feel free to fork.
-
----

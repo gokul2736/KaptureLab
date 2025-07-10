@@ -1,9 +1,6 @@
-# 🔧 KaptureLab – Full Tech Stack & Tools
+# KaptureLab – Full Tech Stack & Tools
 
-
-
-> This file documents the complete technical stack powering **KaptureLab**, from frontend to backend, database, authentication, analytics, and deployment.
-
+This file documents the complete technical stack powering **KaptureLab**, from frontend to backend, database, authentication, analytics, and deployment.
 
 
 ## 🖥️ Frontend
@@ -125,4 +122,3 @@
 | **EmailJS / Twilio**    | Send WA/email alerts on generation           |
 | **PWA Support**         | Turn KaptureLab into installable app         |
 | **Short Link Generator**| Shareable links for records (`kaptu.re/abc`) |
-

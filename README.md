@@ -33,7 +33,7 @@ This README, the tech stack, and the roadmap will evolve as the project gets clo
 
 ## Tech Stack
 
- Do Check [`TECH_STACK.md`](TECH_STACK.md)
+ Do Check [`TECH STACK.md`](https://github.com/gokul2736/KaptureLab/blob/main/TechStack.md) 
 
 ## 🧾 License
 

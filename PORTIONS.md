@@ -1,9 +1,8 @@
-# 🧩 KaptureLab – Dev Portions (Engineer Roles)
+# 🧩 KaptureLab – Dev Portions 
 
 > A full-stack solo-dev breakdown of the KaptureLab project.  
-> Switch between portions based on your interest or energy level.
 
----
+
 
 ## 🎨 Portion 1: Frontend Development (UI/UX)
 
@@ -19,7 +18,7 @@
 - [ ] Buttons: Generate, Download, Reset
 - [ ] Alerts and validation messages
 
----
+
 
 ## 🔐 Portion 2: Authentication (Auth & Session)
 
@@ -34,7 +33,7 @@
 - [ ] Save user info in Firestore
 - [ ] Protect pages using auth state
 
----
+
 
 ## ☁️ Portion 3: Backend + Database (Firestore + Storage)
 
@@ -48,7 +47,6 @@
 - [ ] Save PDF link in Firestore
 - [ ] Add Firestore & Storage security rules
 
----
 
 ## 📄 Portion 4: PDF & QR Generator
 
@@ -62,7 +60,6 @@
 - [ ] Show live preview before download
 - [ ] Upload PDF after generation
 
----
 
 ## 🔁 Portion 5: GitHub Repo Match Logic
 
@@ -76,7 +73,7 @@
 - [ ] Insert matched repo link into row
 - [ ] Generate QR from link
 
----
+
 
 ## 🧹 Portion 6: Auto Cleanup System
 
@@ -89,7 +86,7 @@
 - [ ] Delete PDFs from Firebase Storage
 - [ ] Delete Firestore metadata
 
----
+
 
 ## 📊 Portion 7: Analytics + Polish
 
@@ -103,21 +100,5 @@
 - [ ] “Project Cooked” message
 - [ ] Deploy on GitHub Pages
 
----
 
-## 🧠 Summary Table
 
-| Portion | Role You’re Playing | What You’re Building          |
-|---------|----------------------|-------------------------------|
-| 1       | UI Engineer          | Frontend layout, interactions |
-| 2       | Auth Dev             | Google/GitHub login           |
-| 3       | DB Engineer          | Firestore & Storage handling  |
-| 4       | Doc Engineer         | PDF & QR export               |
-| 5       | API Integrator       | GitHub repo autofill          |
-| 6       | Systems/DevOps       | Auto-cleanup logic            |
-| 7       | Growth Engineer      | Analytics + polish            |
-
----
-
-🛠 **Work smart. Switch portions when bored.  
-Own every part like a solo team. Deliver like a SaaS engineer.**

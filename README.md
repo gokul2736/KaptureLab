@@ -49,25 +49,6 @@ Open an issue or make a pull request!
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-## 🔑 Core Functional & Application Logic
-
-### 🔐 Authentication
-- **Google Login** (via Firebase Auth)
-- **GitHub OAuth** (fetches public repos for experiment linking)
-- **Guest Access** (read-only functionality)
-
 ### 📄 Lab Record Form
 - Dynamic row addition for each experiment
 - **Auto-numbering** for experiment numbers
@@ -75,18 +56,6 @@ Open an issue or make a pull request!
 - Title input with **GitHub repo suggestion dropdown**
 - Repo auto-linking logic via partial match
 
-### 🧾 PDF + QR Code Generation
-- Combines all entered data into a styled A4-format PDF
-- Generates QR linking to GitHub repo (if given)
-- Uses `jsPDF` and `html2canvas` for rendering
-- Fonts and layout resemble actual record sheets
-- Bottom includes signature space & self-declaration
-
-### ☁️ Backend Integration (via Firebase)
-- Stores user-specific lab record data (Firestore)
-- Uploads generated PDFs (Firebase Storage)
-- Applies 40-day auto-deletion logic with timestamps
-- Real-time access control: `request.auth.uid == userId`
 
 ## 🚀 Tech Used
 
@@ -103,18 +72,5 @@ Open an issue or make a pull request!
 - GitHub repo suggestion logic ⏳  
 - Auto-delete and cloud storage ⏳  
 - Dashboard with record viewer ⏳
-
-## 📌 Goals Ahead
-
-- [ ] Add proper field validations
-- [ ] Preview PDF before download
-- [ ] Add export options (PDF + image)
-- [ ] Admin view for faculties
-- [ ] Enable AI handwriting simulation (optional)
-
-
-## 🧾 Declaration
-
-KaptureLab is built for personal/student use under the **Creative Commons BY-NC 4.0** license. You are free to use it, remix it for learning — but **not for commercial reselling**.
 
 > Last updated: **July 2025** | Maintained by: [Gokul](https://github.com/gokul2736)

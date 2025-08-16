@@ -56,4 +56,4 @@ Read more: [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)
 - **Backend:** Firebase Auth, Firestore DB, Firebase Storage
 - **GitHub API:** OAuth & public repo fetching
 
-> Last updated: **July 27 2025** | Maintained by: [Gokul](https://github.com/gokul2736)
+> Last updated: **August 16 2025** | Maintained by: [Gokul](https://github.com/gokul2736)

@@ -1,0 +1,18 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Rule for user-specific lab records
+    // Allows read/write only if the user is authenticated AND their UID matches the userId in the path.
+    match /artifacts/{appId}/users/{userId}/labRecords/{recordId} {
+      allow read, write: if request.auth != null && request.auth.uid == userId;
+    }
+
+    // Rule for analytics events
+    // Allows any authenticated user to create (write) new events.
+    // Allows ONLY YOUR ADMIN UID to read all analytics events.
+    match /artifacts/{appId}/analytics_events/{eventId} {
+      allow write: if request.auth != null;
+      allow read: if request.auth != null && request.auth.uid == 'uPvBFRFP6VgzV1fGy1FcfQMZe0s2'; 
+    }
+  }
+}
